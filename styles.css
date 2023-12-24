@@ -9,6 +9,7 @@
 body {
   grid-template-columns: min-content 4fr;
   min-height: 100vh;
+  
 }
 
 /* ADDITIONAL STYLES */
@@ -89,6 +90,8 @@ button {
   background-color: lightblue;
   height: 30px;
   font-size: 12px;
+  border: none;
+  font-weight: bold;
 }
 
 
