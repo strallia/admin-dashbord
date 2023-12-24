@@ -7,34 +7,34 @@
 }
 
 body {
-  display: grid; 
   grid-template-columns: min-content 4fr;
   min-height: 100vh;
+}
+
+/* ADDITIONAL STYLES */
+.parent {
+  display: grid;
 }
 
 
 /* SIDEBAR */
 .sidebar {
   grid-row: 1/3;
-  display: grid;
   grid-template-rows: auto 1fr;
   background-color: lightblue; 
   padding: 15px;
   gap: 30px;
 }
 .title {
-  display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px;
 }
 .options {
-  display: grid;
   gap: 50px;
   grid-template-rows: min-content min-content;
 }
 nav,
 .settings {
-  display: grid;
   grid-template-columns: auto 3fr;
   grid-template-rows: repeat(6, min-content);
   gap: 10px;
@@ -43,19 +43,15 @@ nav,
 
 /* HEADER */
 .header {
-  display: grid;
-  background-color: white;
   padding: 10px;
   gap: 20px;
   z-index: 1;
 }
 .top-header {
-  display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 10px;
 }
 .search {
-  display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px;
   grid-template-rows: min-content;
@@ -68,23 +64,19 @@ nav,
   padding: 10px;
 }
 .right-search {
-  display: grid;
   grid-template-columns: auto auto auto;
   justify-content: end;
   gap: 20px;
 }
 .bottom-header {
-  display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .user {
-  display: grid;
   grid-template-columns: auto 1fr;
   gap: 20px;
   align-items: center;
 }
 .user-actions{
-  display: grid;
   grid-template-columns: auto auto auto;
   gap: 20px;
   justify-content: end;
@@ -102,14 +94,12 @@ button {
 
 /* CONTENT */
 .content {
-  display: grid;
   background-color: lightgray;
   grid-template-columns: 1fr 280px;
 }
 .projects,
 .announcements,
 .trending {
-  display: grid;
   grid-template-rows: min-content min-content;
   padding: 20px;
   gap: 10px;
@@ -118,7 +108,6 @@ button {
   grid-row: 1/3;
 }
 .cards {
-  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
   gap: 20px;
 }
@@ -126,7 +115,6 @@ button {
   background-color: white;
   border-radius: 5px;
   border-left: 5px solid goldenrod;
-  display: grid;
   grid-template-rows: 1fr auto;
   padding: 20px;
   gap: 10px;
@@ -136,13 +124,11 @@ button {
   font-size: 14px;
 }
 .icons{
-  display: grid;
   grid-template-columns: repeat(3,min-content);
   justify-content: end;
 }
 .announcements > div,
 .trending > div {
-  display: grid;
   gap: 10px;
   background-color: white;
   border-radius: 5px;
@@ -159,7 +145,6 @@ button {
   padding-bottom: 10px;
 }
 .user-rec {
-  display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px;
 }
