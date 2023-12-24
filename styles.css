@@ -47,6 +47,7 @@ nav,
   background-color: white;
   padding: 10px;
   gap: 20px;
+  z-index: 1;
 }
 .top-header {
   display: grid;
@@ -163,4 +164,9 @@ button {
 .user-rec title {
   font-size: 10px;
 }
-
+.header,
+.card,
+.announcements > div,
+.trending > div {
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, .3);
+}
