@@ -127,7 +127,7 @@ button {
 /* CONTENT */
 .content {
   background-color: var(--grey-green);
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: 1fr minmax(80px, 250px);
   padding: 20px;
   gap: 20px;
 }
