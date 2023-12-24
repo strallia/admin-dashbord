@@ -9,7 +9,7 @@
 body {
   display: grid; 
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 6fr;
+  min-height: 100vh;
 }
 
 
@@ -24,16 +24,19 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   padding: 10px;
+  gap: 10px;
 }
 .options {
   display: grid;
   gap: 50px;
   padding: 15px;
+  grid-template-rows: min-content min-content;
 }
 nav,
 .settings {
   display: grid;
   grid-template-columns: auto 3fr;
+  grid-template-rows: repeat(6, min-content);
   gap: 10px;
 }
 
@@ -48,15 +51,18 @@ nav,
 .top-header {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  gap: 10px;
 }
 .search {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px;
+  grid-template-rows: min-content;
 }
 .search input {
   background-color: lightgray;
   border-radius: 10px;
+  height: 25px;
 }
 .right-search {
   display: grid;
@@ -79,11 +85,15 @@ nav,
   grid-template-columns: auto auto auto;
   gap: 20px;
   justify-content: end;
+  grid-template-rows: min-content;
+  align-self: center;
 }
 button {
   width: 80px;
   border-radius: 30px;
   background-color: lightblue;
+  height: 30px;
+  font-size: 12px;
 }
 
 
@@ -91,7 +101,7 @@ button {
 .content {
   display: grid;
   background-color: lightgray;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr 280px;
 }
 .projects,
 .announcements,
