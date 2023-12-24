@@ -62,8 +62,10 @@ nav,
 }
 .search input {
   background-color: lightgray;
-  border-radius: 10px;
+  border-radius: 20px;
   height: 25px;
+  border: none;
+  padding: 10px;
 }
 .right-search {
   display: grid;
