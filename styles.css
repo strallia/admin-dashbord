@@ -8,7 +8,7 @@
 
 body {
   display: grid; 
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: min-content 4fr;
   min-height: 100vh;
 }
 
@@ -19,17 +19,17 @@ body {
   display: grid;
   grid-template-rows: auto 1fr;
   background-color: lightblue; 
+  padding: 15px;
+  gap: 30px;
 }
 .title {
   display: grid;
   grid-template-columns: auto 1fr;
-  padding: 10px;
   gap: 10px;
 }
 .options {
   display: grid;
   gap: 50px;
-  padding: 15px;
   grid-template-rows: min-content min-content;
 }
 nav,
