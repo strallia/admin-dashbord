@@ -4,4 +4,4 @@
 
 ## Purpose
 
-To practice using CSS Grid to create a dynamic dashboard layout. Responsive with desktop browsers but not mobile yet.
+Use CSS Grid to create a dynamic dashboard layout. Responsive with desktop browsers but not yet mobile.
