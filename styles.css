@@ -14,6 +14,7 @@
   --text-sidebar-btns: white;
   --text-titles: black;
   --text-para: grey;
+  --text-search: none;
   --filter-icons: none;
   --shadow-header-cards: 3px 3px 3px rgba(128, 128, 128, .3);
 }
@@ -25,6 +26,7 @@
   --text-sidebar-btns: black;
   --text-titles: white;
   --text-para: lightgray;
+  --text-search: white;
   --filter-icons: invert(1);
   --shadow-header-cards: none;
 }
@@ -106,6 +108,7 @@ nav,
   height: 25px;
   border: none;
   padding: 10px;
+  color: var(--text-search);
 }
 .right-search {
   grid-template-columns: auto auto auto auto;
